@@ -1,0 +1,22 @@
+<!-- res/drawable/boat.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Hull -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M20,21c-1.39,0 -2.78,-0.47 -4,-1.32 -2.44,1.71 -5.56,1.71 -8,0C6.78,20.53 5.39,21 4,21H2v2h2c1.38,0 2.74,-0.35 4,-0.99 2.52,1.29 5.48,1.29 8,0 1.26,0.65 2.62,0.99 4,0.99h2v-2h-2zM2,18l2,0c1.04,0 2.08,-0.35 3,-1.02 1.83,1.35 4.17,1.35 6,0 0.92,0.67 1.96,1.02 3,1.02h4L20,15L4,15z"/>
+    <!-- Sails -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M12,12V3L3.5,12H12z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M13.5,12H21L13.5,4V12z"/>
+    <!-- Mast -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M12,3v12h1V3H12z"/>
+</vector>

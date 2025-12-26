@@ -1,0 +1,24 @@
+<!-- res/anim/boat_ride.xml -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false">
+
+    <!-- Bobbing Up and Down -->
+    <translate
+        android:fromYDelta="0%"
+        android:toYDelta="-15%"
+        android:duration="2000"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"/>
+
+    <!-- Slight Rocking Motion -->
+    <rotate
+        android:fromDegrees="-5"
+        android:toDegrees="5"
+        android:pivotX="50%"
+        android:pivotY="80%"
+        android:duration="2500"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:interpolator="@android:anim/linear_interpolator"/>
+</set>
