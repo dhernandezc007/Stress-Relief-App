@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="quotes_anxious">
+        <item>Breathe. You are stronger than you think.</item>
+        <item>You have survived every hard moment so far. This one is no different.</item>
+        <item>Not every thought you have is true. Let this one pass by like a cloud.</item>
+        <item>You don\'t have to solve everything right now. Just this breath.</item>
+        <item>Your body is trying to protect you. You can tell it you\'re safe.</item>
+        <item>Slow down. There is time.</item>
+        <item>Feel your feet on the ground. You are here, and here is okay.</item>
+        <item>Worry is a story about the future. Right now, you are okay.</item>
+        <item>One small step is enough for today.</item>
+        <item>Anxiety is loud, but it is not in charge of you.</item>
+        <item>It\'s okay to pause. Rest is not giving up.</item>
+    </string-array>
+
+    <string-array name="quotes_upset">
+        <item>This moment will pass, and you will rise again.</item>
+        <item>It\'s okay to feel this. Feelings are visitors, not permanent residents.</item>
+        <item>You\'re allowed to be upset. You\'re also allowed to let it go when you\'re ready.</item>
+        <item>Take a breath before you take the next step.</item>
+        <item>Storms don\'t last forever, even the loud ones.</item>
+        <item>Be gentle with yourself. You\'re carrying a lot right now.</item>
+        <item>You can\'t control everything, but you can choose how you care for yourself.</item>
+        <item>Let it out, then let it settle.</item>
+        <item>Anger and hurt are signals, not instructions.</item>
+        <item>Tomorrow is a fresh page.</item>
+        <item>You don\'t have to respond to everything right away.</item>
+    </string-array>
+
+    <string-array name="quotes_depressed">
+        <item>You matter. Your story is not over.</item>
+        <item>Even on the days you don\'t feel it, you are worthy of care.</item>
+        <item>Getting through today counts. That is enough.</item>
+        <item>Small things are still things. Drinking water counts. Getting up counts.</item>
+        <item>The fog lifts, even when it doesn\'t feel like it will.</item>
+        <item>You are not a burden. You are a person going through something hard.</item>
+        <item>Reaching out is a sign of strength, not weakness.</item>
+        <item>You don\'t have to feel better all at once.</item>
+        <item>There are people who are glad you\'re here.</item>
+        <item>Rest if you need to, but don\'t give up.</item>
+        <item>Your feelings are real, and so is your ability to get through them.</item>
+    </string-array>
+
+    <string-array name="quotes_default">
+        <item>You are doing your best, and that is enough.</item>
+        <item>Take it one breath at a time.</item>
+        <item>Be kind to your mind.</item>
+        <item>Peace begins with a pause.</item>
+        <item>You deserve the same kindness you give to others.</item>
+    </string-array>
+
+    <!-- Home screen daily reminders -->
+    <string-array name="affirmations">
+        <item>You don\'t have to have it all figured out to take the next step.</item>
+        <item>Rest is productive too.</item>
+        <item>Your feelings are valid, and they will pass.</item>
+        <item>Progress, not perfection.</item>
+        <item>You are allowed to take up space.</item>
+        <item>Breathe in calm. Breathe out what you can\'t control.</item>
+        <item>Be as kind to yourself as you are to others.</item>
+        <item>Small steps still move you forward.</item>
+        <item>You\'ve made it through 100% of your hardest days so far.</item>
+        <item>It\'s okay to ask for help.</item>
+        <item>Slow is still moving.</item>
+        <item>You are more than your productivity.</item>
+        <item>Let today be enough, just as it is.</item>
+        <item>Notice one good thing around you right now.</item>
+        <item>Your pace is the right pace.</item>
+        <item>Protect your peace.</item>
+        <item>Drink some water. Stretch. Unclench your jaw.</item>
+        <item>You are growing, even when you can\'t see it.</item>
+        <item>Saying no is a form of self-care.</item>
+        <item>Today, try to be a friend to yourself.</item>
+        <item>Every day is a chance to begin again.</item>
+        <item>You don\'t have to fight the current. Float, and let it carry you.</item>
+        <item>Like the tide, this feeling will come in and go back out.</item>
+        <item>Beneath every storm, the deep water is still.</item>
+        <item>Surrender isn\'t giving up. It\'s letting go of what you can\'t hold.</item>
+        <item>Be still. The waves will settle on their own.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Rounded, flat surface card -->
+    <style name="StillCard">
+        <item name="cardBackgroundColor">@color/still_surface</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="SectionTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/dm_sans_medium</item>
+        <item name="android:textColor">@color/still_ink</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Eyebrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/dm_sans_medium</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/still_muted</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- "Need a moment?" grid tiles -->
+    <style name="MoodTile">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">112dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/mood_card_state</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">bottom|start</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">18dp</item>
+    </style>
+
+    <style name="MoodTileEmoji">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="MoodTileLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/dm_sans_medium</item>
+        <item name="android:textColor">@color/still_navy</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Large serif headline (Fraunces) -->
+    <style name="Headline">
+        <item name="android:fontFamily">@font/fraunces_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/still_ink</item>
+    </style>
+
+    <style name="MoodTileSub">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/still_muted</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

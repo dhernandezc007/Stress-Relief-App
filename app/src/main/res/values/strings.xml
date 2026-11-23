@@ -1,3 +1,110 @@
 <resources>
     <string name="app_name">MoodRelief</string>
+    <string name="brand_name">Still</string>
+
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+
+    <string name="streak_none">Start a streak</string>
+    <plurals name="streak_days">
+        <item quantity="one">🐚 %d day streak</item>
+        <item quantity="other">🐚 %d day streak</item>
+    </plurals>
+
+    <string name="checkin_title">Daily check-in</string>
+    <string name="checkin_prompt">How are you feeling today?</string>
+    <string name="checkin_note_hint">What\'s on your mind? (optional)</string>
+    <string name="checkin_save">Save check-in</string>
+    <string name="checkin_done_title">Today you\'re feeling %1$s</string>
+    <string name="checkin_edit">Edit</string>
+    <string name="checkin_try_breathing">Try a breathing exercise</string>
+
+    <string-array name="mood_labels">
+        <item>awful</item>
+        <item>low</item>
+        <item>okay</item>
+        <item>good</item>
+        <item>great</item>
+    </string-array>
+
+    <string-array name="mood_responses">
+        <item>That sounds really hard. Be gentle with yourself today.</item>
+        <item>Thanks for checking in. Small steps still count.</item>
+        <item>An okay day is still a day you showed up for.</item>
+        <item>Glad you\'re doing well. Keep that going.</item>
+        <item>Love that! Take a moment to notice what made today great.</item>
+    </string-array>
+
+    <string name="week_title">This week</string>
+
+    <string name="moment_title">Need a moment?</string>
+    <string name="tile_anxious">Anxious</string>
+    <string name="tile_upset">Upset</string>
+    <string name="tile_depressed">Down</string>
+    <string name="tile_breathe">Breathe</string>
+    <string name="tile_anxious_sub">Find your calm</string>
+    <string name="tile_upset_sub">Let it settle</string>
+    <string name="tile_depressed_sub">You matter</string>
+    <string name="tile_breathe_sub">1 minute reset</string>
+
+    <string name="reminder_title">Today\'s reminder</string>
+
+    <!-- Mood screen -->
+    <string name="back">Back</string>
+
+    <!-- Ambient sounds -->
+    <string name="sounds_title">Background sound</string>
+    <string name="sound_off">Off</string>
+    <string name="sound_auto">✨ Auto</string>
+    <string name="sound_rain">🌧️ Rain</string>
+    <string name="sound_forest">🌲 Forest</string>
+    <string name="sound_ocean">🌊 Ocean</string>
+    <string name="sound_birds">🐦 Birds</string>
+    <string name="sound_crickets">🦗 Crickets</string>
+    <string name="sound_name_rain">soft rain</string>
+    <string name="sound_name_forest">forest</string>
+    <string name="sound_name_ocean">ocean waves</string>
+    <string name="sound_name_birds">morning birds</string>
+    <string name="sound_name_crickets">night crickets</string>
+    <string name="sound_hint_off">Sound is off.</string>
+    <string name="sound_hint_auto">Auto matches the time of day. Now playing %1$s.</string>
+    <string name="sound_hint_playing">Now playing %1$s.</string>
+    <string name="sound_hint_missing">Add %1$s.ogg to res/raw to hear this sound.</string>
+    <string name="quote_title">A thought for you</string>
+    <string name="quote_another">Another one</string>
+    <string name="quote_share">Share</string>
+    <string name="tip_title">Try this</string>
+    <string name="start_breathing">Start breathing exercise</string>
+    <string name="support_title">Need to talk to someone?</string>
+    <string name="support_body">Free, confidential support 24/7 from the 988 Suicide &amp; Crisis Lifeline.</string>
+    <string name="support_call">Call 988</string>
+    <string name="support_text">Text 988</string>
+
+    <string name="mood_anxious_eyebrow">When you\'re feeling anxious</string>
+    <string name="mood_upset_eyebrow">When you\'re feeling upset</string>
+    <string name="mood_depressed_eyebrow">When you\'re feeling down</string>
+    <string name="mood_default_eyebrow">A moment for you</string>
+    <string name="mood_default_title">Take a breath</string>
+
+    <string name="tip_anxious_title">5-4-3-2-1 grounding</string>
+    <string name="tip_anxious_body">Name 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste.</string>
+    <string name="tip_upset_title">Pause before reacting</string>
+    <string name="tip_upset_body">Step away for a few minutes. Splash cold water on your face or take a short walk, then come back when you feel steadier.</string>
+    <string name="tip_depressed_title">One tiny step</string>
+    <string name="tip_depressed_body">Pick one small thing: open a window, drink a glass of water, or text someone you trust. That\'s enough for now.</string>
+    <string name="tip_default_title">Check in with your body</string>
+    <string name="tip_default_body">Drop your shoulders, unclench your jaw, and take one slow breath.</string>
+
+    <!-- Breathing screen -->
+    <string name="breathing_eyebrow">Breathing</string>
+    <string name="breathing_title">Follow the circle</string>
+    <string name="breathing_subtitle">Breathe in as the tide rises, out as it falls.</string>
+    <string name="breathing_in">Breathe in</string>
+    <string name="breathing_out">Breathe out</string>
+    <string name="breathing_done">Well done</string>
+    <string name="breathing_done_subtitle">Notice how you feel now. You can come back anytime.</string>
+    <string name="breathing_time_left">%1$d:%2$02d left</string>
+    <string name="breathing_end">End session</string>
+    <string name="breathing_finish">Done</string>
 </resources>

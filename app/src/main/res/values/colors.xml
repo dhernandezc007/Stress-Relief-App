@@ -2,4 +2,24 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Still palette: a calm, still ocean -->
+    <color name="still_bg">#EEF3F6</color>          <!-- morning sea mist -->
+    <color name="still_bg_deep">#DCE7EE</color>     <!-- mist deepening toward the water -->
+    <color name="still_surface">#F9FBFC</color>     <!-- cards -->
+    <color name="still_surface_alt">#E9EFF3</color>
+    <color name="still_ink">#0F2235</color>         <!-- deep-water text -->
+    <color name="still_muted">#627789</color>
+    <color name="still_foam">#DAE6EE</color>        <!-- pale accent: pills, chips, halo -->
+    <color name="still_tide">#A7C1D4</color>        <!-- mid blue: circle, back wave -->
+    <color name="still_current">#6B90AE</color>     <!-- front wave -->
+    <color name="still_navy">#14304A</color>        <!-- primary: buttons, quote cards -->
+    <color name="still_ring">#C9D6DF</color>
+
+    <!-- Check-in mood scale, 1 (stormy) to 5 (clear water) -->
+    <color name="mood_1">#CCCBD9</color>
+    <color name="mood_2">#D3D9E4</color>
+    <color name="mood_3">#D6E3EC</color>
+    <color name="mood_4">#BEDCE7</color>
+    <color name="mood_5">#A3D5DC</color>
 </resources>
