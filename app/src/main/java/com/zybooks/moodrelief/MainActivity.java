@@ -112,9 +112,12 @@ public class MainActivity extends AppCompatActivity {
                 : hour < 17 ? R.string.greeting_afternoon
                 : R.string.greeting_evening;
 
-        ((TextView) findViewById(R.id.greetingText)).setText(greeting);
-        ((TextView) findViewById(R.id.dateText)).setText(
-                new SimpleDateFormat("EEEE, MMM d", Locale.getDefault()).format(now.getTime()));
+        String date = new SimpleDateFormat("EEEE, MMM d", Locale.getDefault()).format(now.getTime());
+        ((TextView) findViewById(R.id.dateText)).setText(getString(R.string.home_eyebrow, getString(greeting), date));
+
+        // "Welcome, Danny"
+        ((TextView) findViewById(R.id.greetingText)).setText(
+                getString(R.string.home_welcome, getString(R.string.owner_name)));
     }
 
     private void bindStreak() {

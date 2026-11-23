@@ -53,7 +53,7 @@
                     android:paddingBottom="6dp"
                     android:textColor="@color/still_navy"
                     android:textSize="13sp"
-                    tools:text="🌱 3 day streak" />
+                    tools:text="🐚 3 day streak" />
             </LinearLayout>
 
             <!-- Greeting -->
@@ -61,7 +61,7 @@
                 android:id="@+id/dateText"
                 style="@style/Eyebrow"
                 android:layout_marginTop="36dp"
-                tools:text="Monday, Nov 23" />
+                tools:text="Good afternoon · Monday, Nov 23" />
 
             <TextView
                 android:id="@+id/greetingText"
@@ -72,7 +72,7 @@
                 android:letterSpacing="-0.01"
                 android:textColor="@color/still_ink"
                 android:textSize="36sp"
-                tools:text="Good morning" />
+                tools:text="Welcome, Danny" />
 
             <!-- Daily check-in -->
             <com.google.android.material.card.MaterialCardView

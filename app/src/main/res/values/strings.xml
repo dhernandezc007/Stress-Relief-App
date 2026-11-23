@@ -6,6 +6,11 @@
     <string name="greeting_afternoon">Good afternoon</string>
     <string name="greeting_evening">Good evening</string>
 
+    <!-- Personal app: who the home screen greets -->
+    <string name="owner_name" translatable="false">Danny</string>
+    <string name="home_welcome">Welcome, %1$s</string>
+    <string name="home_eyebrow">%1$s · %2$s</string>
+
     <string name="streak_none">Start a streak</string>
     <plurals name="streak_days">
         <item quantity="one">🐚 %d day streak</item>
